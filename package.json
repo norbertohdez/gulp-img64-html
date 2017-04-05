@@ -1,0 +1,50 @@
+{
+  "author": {
+    "name": "247even",
+    "email": "shoot.my.image@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/norbertohdez/gulp-img64-html/issues"
+  },
+  "dependencies": {
+    "cheerio": "~0.13.1",
+    "gulp-util": "~2.2.14",
+    "mime": "~1.2.1",
+    "through2": "~0.4.1"
+  },
+  "description": "Based in 247even's gulp-img64: Convert and replace image-files within your DOM/HTML to base64-encoded data.",
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  },
+  "directories": {},
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/norbertohdez/gulp-img64-html",
+  "keywords": [
+    "gulp",
+    "64",
+    "encoding",
+    "base64",
+    "image",
+    "html",
+    "img"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "Norberto Hdez",
+      "email": "norbertohdez@gmail.com"
+    }
+  ],
+  "name": "gulp-img64-html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norbertohdez/gulp-img64-html.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.0.6"
+}
