@@ -28,7 +28,7 @@ gulp.task('default', function () {
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAACksUlEQVR42ux9B5glV3F195ud2dkkaSXxE22SDTYigwwWSUQHsAgCEyTAgBAgE0wGA79JwiKDAIlkhEgiRxF[and so on...]">
 ```
 
-### Only option: `ignoreExternal`
+### Optional: `ignoreExternal`
 
 Default: `false` - Boolean
 
