@@ -29,7 +29,7 @@ describe('gulp-img64-html', function() {
 
 		});
 
-		it('should replace images in DOM with base64 data skip external (http/https)', function(done) {
+		it('should replace images in DOM with base64 data and skip external ones(http/https)', function(done) {
 
 			var filename = path.join(__dirname, '/fixtures/input-external.html');
 

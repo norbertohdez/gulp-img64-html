@@ -35,8 +35,7 @@ module.exports = function(opt) {
 
 					if (ssrc !== '' && typeof ssrc !== 'undefined' && isdata !== 0) {
 						var rexp = /^(https?:\/\/)/i;
-
-						if (_opt.ignoreExternal && !rexp.test(ssrc)) {
+						if (!(_opt.ignoreExternal && rexp.test(ssrc))) {
 							var spath = path.join(file.base, ssrc);
 							var mtype = mime.lookup(spath);
 
@@ -46,7 +45,6 @@ module.exports = function(opt) {
 								var simg64 = new Buffer(sfile).toString('base64');
 								this.attr('src', 'data:' + mtype + ';base64,' + simg64);
 							}
-							
 						}
 
 					}
