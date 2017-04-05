@@ -1,4 +1,4 @@
-# gulp-img64-html [![Build Status](https://travis-ci.org/247even/gulp-img64.png)](https://travis-ci.org/247even/gulp-img64)
+# gulp-img64-html [![Build Status](https://travis-ci.org/norbertohdez/gulp-img64-html.png)](https://travis-ci.org/norbertohdez/gulp-img64-html)
 
 Based in 247even's gulp-img64. Convert and replace image-files within your DOM/HTML to base64-encoded data.
 
